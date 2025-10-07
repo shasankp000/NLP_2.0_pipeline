@@ -1,0 +1,265 @@
+{
+  "type": "split",
+  "feature": "lemma=what",
+  "threshold": 0.5,
+  "left": {
+    "type": "split",
+    "feature": "POS=VB",
+    "threshold": 0.5,
+    "left": {
+      "type": "split",
+      "feature": "lemma=flight",
+      "threshold": 0.5,
+      "left": {
+        "type": "split",
+        "feature": "lemma=little",
+        "threshold": 0.5,
+        "left": {
+          "type": "split",
+          "feature": "POS=NN",
+          "threshold": 0.5,
+          "left": {
+            "type": "split",
+            "feature": "lemma=kill",
+            "threshold": 0.5,
+            "left": {
+              "type": "leaf",
+              "class": 1,
+              "class_counts": [
+                0.0,
+                0.967741935483871,
+                0.03225806451612903
+              ],
+              "confidence": 0.9677
+            },
+            "right": {
+              "type": "leaf",
+              "class": 0,
+              "class_counts": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "confidence": 1.0
+            }
+          },
+          "right": {
+            "type": "split",
+            "feature": "POS=VBZ",
+            "threshold": 0.5,
+            "left": {
+              "type": "leaf",
+              "class": 2,
+              "class_counts": [
+                0.0,
+                0.37037037037037035,
+                0.6296296296296297
+              ],
+              "confidence": 0.6296
+            },
+            "right": {
+              "type": "leaf",
+              "class": 0,
+              "class_counts": [
+                0.625,
+                0.375,
+                0.0
+              ],
+              "confidence": 0.625
+            }
+          }
+        },
+        "right": {
+          "type": "leaf",
+          "class": 1,
+          "class_counts": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "confidence": 1.0
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": "POS=DT",
+        "threshold": 0.5,
+        "left": {
+          "type": "leaf",
+          "class": 0,
+          "class_counts": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "confidence": 1.0
+        },
+        "right": {
+          "type": "leaf",
+          "class": 2,
+          "class_counts": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "confidence": 1.0
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": "POS=WRB",
+      "threshold": 0.5,
+      "left": {
+        "type": "split",
+        "feature": "WH=can",
+        "threshold": 0.5,
+        "left": {
+          "type": "split",
+          "feature": "lemma=give",
+          "threshold": 0.5,
+          "left": {
+            "type": "split",
+            "feature": "sentiment=positive",
+            "threshold": 0.5,
+            "left": {
+              "type": "leaf",
+              "class": 2,
+              "class_counts": [
+                0.1076923076923077,
+                0.0,
+                0.8923076923076924
+              ],
+              "confidence": 0.8923
+            },
+            "right": {
+              "type": "leaf",
+              "class": 2,
+              "class_counts": [
+                0.0,
+                0.4666666666666667,
+                0.5333333333333333
+              ],
+              "confidence": 0.5333
+            }
+          },
+          "right": {
+            "type": "leaf",
+            "class": 0,
+            "class_counts": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "confidence": 1.0
+          }
+        },
+        "right": {
+          "type": "split",
+          "feature": "lemma=I",
+          "threshold": 0.5,
+          "left": {
+            "type": "split",
+            "feature": "POS=NN",
+            "threshold": 0.5,
+            "left": {
+              "type": "leaf",
+              "class": 0,
+              "class_counts": [
+                0.5,
+                0.5,
+                0.0
+              ],
+              "confidence": 0.5
+            },
+            "right": {
+              "type": "leaf",
+              "class": 2,
+              "class_counts": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "confidence": 1.0
+            }
+          },
+          "right": {
+            "type": "split",
+            "feature": "lemma=find",
+            "threshold": 0.5,
+            "left": {
+              "type": "leaf",
+              "class": 0,
+              "class_counts": [
+                0.8928571428571429,
+                0.03571428571428571,
+                0.07142857142857142
+              ],
+              "confidence": 0.8929
+            },
+            "right": {
+              "type": "leaf",
+              "class": 2,
+              "class_counts": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "confidence": 1.0
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "leaf",
+        "class": 0,
+        "class_counts": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "confidence": 1.0
+      }
+    }
+  },
+  "right": {
+    "type": "split",
+    "feature": "POS=VBG",
+    "threshold": 0.5,
+    "left": {
+      "type": "split",
+      "feature": "lemma=up",
+      "threshold": 0.5,
+      "left": {
+        "type": "leaf",
+        "class": 0,
+        "class_counts": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "confidence": 1.0
+      },
+      "right": {
+        "type": "leaf",
+        "class": 1,
+        "class_counts": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "confidence": 1.0
+      }
+    },
+    "right": {
+      "type": "leaf",
+      "class": 2,
+      "class_counts": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "confidence": 1.0
+    }
+  }
+}

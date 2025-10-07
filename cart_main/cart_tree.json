@@ -1,0 +1,175 @@
+{
+  "type": "split",
+  "feature": "where",
+  "threshold": 0.5,
+  "left": {
+    "type": "split",
+    "feature": "how",
+    "threshold": 0.5,
+    "left": {
+      "type": "split",
+      "feature": "is",
+      "threshold": 0.5,
+      "left": {
+        "type": "split",
+        "feature": "tell",
+        "threshold": 0.5,
+        "left": {
+          "type": "split",
+          "feature": "did",
+          "threshold": 0.5,
+          "left": {
+            "type": "split",
+            "feature": "who",
+            "threshold": 0.5,
+            "left": {
+              "type": "leaf",
+              "class": 2,
+              "class_counts": [
+                0.0513595166163142,
+                0.23716012084592145,
+                0.7114803625377644
+              ],
+              "confidence": 0.7115
+            },
+            "right": {
+              "type": "leaf",
+              "class": 0,
+              "class_counts": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "confidence": 1.0
+            }
+          },
+          "right": {
+            "type": "leaf",
+            "class": 0,
+            "class_counts": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "confidence": 1.0
+          }
+        },
+        "right": {
+          "type": "leaf",
+          "class": 0,
+          "class_counts": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "confidence": 1.0
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": "to",
+        "threshold": 0.5,
+        "left": {
+          "type": "split",
+          "feature": "who is online",
+          "threshold": 0.5,
+          "left": {
+            "type": "split",
+            "feature": "what",
+            "threshold": 0.5,
+            "left": {
+              "type": "leaf",
+              "class": 1,
+              "class_counts": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "confidence": 1.0
+            },
+            "right": {
+              "type": "leaf",
+              "class": 0,
+              "class_counts": [
+                0.8571428571428571,
+                0.0,
+                0.14285714285714285
+              ],
+              "confidence": 0.8571
+            }
+          },
+          "right": {
+            "type": "leaf",
+            "class": 0,
+            "class_counts": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "confidence": 1.0
+          }
+        },
+        "right": {
+          "type": "leaf",
+          "class": 0,
+          "class_counts": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "confidence": 1.0
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": "village turned out",
+      "threshold": 0.5,
+      "left": {
+        "type": "split",
+        "feature": "feel the cave",
+        "threshold": 0.5,
+        "left": {
+          "type": "leaf",
+          "class": 0,
+          "class_counts": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "confidence": 1.0
+        },
+        "right": {
+          "type": "leaf",
+          "class": 1,
+          "class_counts": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "confidence": 1.0
+        }
+      },
+      "right": {
+        "type": "leaf",
+        "class": 1,
+        "class_counts": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "confidence": 1.0
+      }
+    }
+  },
+  "right": {
+    "type": "leaf",
+    "class": 0,
+    "class_counts": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "confidence": 1.0
+  }
+}
